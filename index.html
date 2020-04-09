@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Book List</title>
+    <style>
+        body {
+            background-color: black;
+            color: salmon;
+        }
+    </style>
+</head>
+<body>
+   <h1>Add Book</h1> 
+   <div class="container">
+   <form id="book-form">
+   <input type="text" placeholder="Title" id="title">
+   <br>
+   <input type="text" placeholder="Author" id="author">
+   <br>
+   <input type="text" placeholder="ISbN" id="isbn">
+    <br>
+    <input type="submit" value="Submit">
+</form>
+</div>
+    <hr>
+   <table>
+       <thead>
+           <tr>
+               <th>Title</th>
+               <th>Author</th>
+               <th>ISBN</th>
+               <th></th>
+           </tr>
+       </thead>
+       <tbody id="book-list"></tbody>
+   </table>
+   <br>
+
+   <!-- <script src="app.js"></script> -->
+   <script src="appES6.js"></script>
+</body>
+</html>
